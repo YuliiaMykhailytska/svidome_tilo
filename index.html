@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Свідоме Тіло</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,263 +18,328 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Свідоме Тіло</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!-- home page 1 -->
   <body>
-    <!-- header -->
-    <section class="header-section">
-      <h1 hidden>Header</h1>
-      <nav>
-        <a href="./index.html">
-          <img
-            src="./images/logo/svidome_tilo_nav_logo-removebg-preview.png"
-            width="150"
-            height="150"
-            alt="main logo"
-        /></a>
+    <!-- HEADER -->
+    <header class="header-section">
+      <div class="container">
+        <h1 hidden>Header</h1>
+        <nav class="header-nav">
+          <a class="header-logo-link link" href="./index.html">
+            <img
+              class="header-logo-icon"
+              src="./images/logo/svidome_tilo_nav_logo-removebg-preview.png"
+              width="120"
+              height="120"
+              alt="main logo"
+          /></a>
+          <!-- nav -->
+          <div class="header-nav-menu-container">
+            <ul class="header-menu-list list">
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Про нас</a
+                >
+              </li>
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Меню</a
+                >
+              </li>
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Блог</a
+                >
+              </li>
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Акції</a
+                >
+              </li>
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Оплата</a
+                >
+              </li>
+              <li class="header-item list">
+                <a
+                  class="header-nav-link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Вхід</a
+                >
+              </li>
+            </ul>
+          </div>
+          <address class="header-address">
+            <ul class="header-addres-list list">
+              <li class="header-addres-item">
+                <a class="header-addres-contact link" href="tel:+380976427293"
+                  >+38 (097) 642 72 93</a
+                >
+              </li>
+              <li class="header-addres-item">
+                <a
+                  class="header-addres-contact link"
+                  href="mailto:svidometilo@gmail.com"
+                  >svidometilo@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </nav>
+      </div>
+    </header>
 
-        <ul>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer">Про нас</a>
-          </li>
-          <li><a href="" target="_blank" rel="noopener noreferrer">Меню</a></li>
-          <li><a href="" target="_blank" rel="noopener noreferrer">Блог</a></li>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer">Акції</a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer">Оплата</a>
-          </li>
-          <li><a href="" target="_blank" rel="noopener noreferrer">Вхід</a></li>
-        </ul>
-        <address>
+    <!-- HERO -->
+    <main>
+      <section>
+        <div>
+          <h2>Еко | Веган | Здорова їжа</h2>
+          <img
+            src="./images/banner/first_banner.jpg"
+            alt="green gouache"
+            width="490"
+          />
+        </div>
+      </section>
+
+      <!-- NEW -->
+      <section>
+        <div>
+          <h2>Новинки</h2>
           <ul>
-            <li><a href="tel:+380976427293">+38 (097) 642 72 93</a></li>
+            <!-- 1 -->
             <li>
-              <a href="mailto:svidometilo@gmail.com">svidometilo@gmail.com</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/resent_post/finik_coffe.jpg"
+                  alt="pack of finik coffee"
+                  height="300"
+              /></a>
+            </li>
+            <!-- 2 -->
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/resent_post/lollipops.jpg"
+                  alt="lollipops"
+                  height="300"
+              /></a>
+            </li>
+            <!-- 3 -->
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/resent_post/pasta.jpg"
+                  alt="pack of pasta"
+                  height="300"
+              /></a>
             </li>
           </ul>
-        </address>
-      </nav>
-    </section>
+        </div>
+      </section>
 
-    <!-- hero -->
-    <section>
-      <h2>Еко | Веган | Здорова їжа</h2>
-      <img
-        src="./images/banner/first_banner.jpg"
-        alt="green gouache"
-        width="490"
-      />
-    </section>
+      <!-- BLOG -->
+      <section>
+        <div>
+          <h2>Блог</h2>
+          <!-- 1 -->
+          <ul>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/interesting/photo_by_eko.jpg"
+                  alt="photo by eko"
+                  height="300"
+              /></a>
+              <p>
+                Я ЗЛЮСЬ ... дратуюсь, сумую, ображаюсь, боюсь, дивуюсь, радію,
+                ненавиджу, заздрю, цікавлюсь, захоплююсь, гніваюсь,
+                розчаровуюсь, тривожусь, люблю... Я - ЛЮДИНА і я відчуваю
+                ЕМОЦІЇ.Ми часто не вміємо приймати і проживати емоції. Ділимо їх
+                на «добрі» і «погані», і стараємось уникати останніх, сховати їх
+                глибоко в себе і ніколи нікому не показувати. Але ж емоції - це
+                лише реакції на події, які відбуваються навколо. А, враховуючи,
+                що ми не живемо у рожевому світі єдинорогів, де все казково,
+                ніжно та ідеально - треба дозволяти собі справжні реакції на
+                справжній світ. Не треба боятися негативних емоцій, треба
+                навчитися приймати їх і проживати усвідомлено, екологічно, без
+                шкоди для себе та інших людей. Це нормально відчувати [гнів],
+                розпізнавати, що ти відчуваєш саме цю емоцію, проживати її,
+                приймати все, що відбувається у тілі та голові. Без оцінок та
+                засуджень. Усвідомлено. Проживати до кінця і відпускати,
+                звільнятись. Не ігноруй емоції, не ховай їх далеко в собі.
+                Проживай. Без шкоди собі й іншим. Усвідомлено та екологічно.
+              </p>
+            </li>
+            <!-- 2 -->
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/interesting/life_forse.jpg"
+                  alt="label ife forse"
+                  height="300"
+              /></a>
+              <p>
+                Енергія - це валюта. Коли ми сповнені енергії, ми спроможні
+                більш якісно робити свої справи, взаємодіяти з іншими, досягати
+                успіху та відчувати щастя. Якщо в автомобілі закінчується пальне
+                - ми не зможемо продовжувати рух, а тому завчасно прямуємо на
+                заправку. Так і в житті, немає сенсу робити щось, коли у вас уже
+                немає сил - треба зупинитися і зарядитися.
+              </p>
+            </li>
+            <!-- 3 -->
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./images/interesting/your_body_your_thing.jpg"
+                  alt="label your body your thing"
+                  height="300"
+              /></a>
+              <p>
+                Феномен бодішеймінгу (осудження зовнішнього вигляду) став доволі
+                поширеним у 2000-х роках, коли на подіумах, по телебаченню, в
+                журналах, (та скрізь!) панував культ «ідеальної» краси:
+                90-60-90, зріст 180 см, довге волосся, ідеальна шкіра, об‘ємні
+                вії, пишні губи, чіткі брови - цей список можна продовжувати
+                безкінечно. Тримаючи в голові ідеал краси, люди одразу помічали
+                відмінності від цього ідеалу не тільки в своєму, а й в чужому
+                тілі: «дивись, які в неї ляжки», «як можна прийти на пляж з
+                непобритими ногами?», «їй так негарно з короткою чоловічою
+                стрижкою», «ну брови уже можна було і пощипать», «у неї зайва
+                вага, а вона ходить в коротких топах і не комплексує, як так?»,
+                «в неї пляма на півлиця, хоч би замалювала чим»... .... подібні
+                фрази зазвичай лунають лише від тих людей, які самі бояться бути
+                засудженими за свій зовнішній вигляд.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-    <!-- new -->
-    <h2>Новинки</h2>
-    <ul>
-      <!-- 1 -->
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/resent_post/finik_coffe.jpg"
-            alt="pack of finik coffee"
-            height="300"
-        /></a>
-      </li>
-      <!-- 2 -->
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/resent_post/lollipops.jpg"
-            alt="lollipops"
-            height="300"
-        /></a>
-      </li>
-      <!-- 3 -->
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/resent_post/pasta.jpg"
-            alt="pack of pasta"
-            height="300"
-        /></a>
-      </li>
-    </ul>
-
-    <!-- blog -->
-    <h2>Блог</h2>
-    <!-- 1 -->
-    <ul>
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/interesting/photo_by_eko.jpg"
-            alt="photo by eko"
-            height="300"
-        /></a>
-        <p>
-          Я ЗЛЮСЬ ... дратуюсь, сумую, ображаюсь, боюсь, дивуюсь, радію,
-          ненавиджу, заздрю, цікавлюсь, захоплююсь, гніваюсь, розчаровуюсь,
-          тривожусь, люблю... Я - ЛЮДИНА і я відчуваю ЕМОЦІЇ.Ми часто не вміємо
-          приймати і проживати емоції. Ділимо їх на «добрі» і «погані», і
-          стараємось уникати останніх, сховати їх глибоко в себе і ніколи нікому
-          не показувати. Але ж емоції - це лише реакції на події, які
-          відбуваються навколо. А, враховуючи, що ми не живемо у рожевому світі
-          єдинорогів, де все казково, ніжно та ідеально - треба дозволяти собі
-          справжні реакції на справжній світ. Не треба боятися негативних
-          емоцій, треба навчитися приймати їх і проживати усвідомлено,
-          екологічно, без шкоди для себе та інших людей. Це нормально відчувати
-          [гнів], розпізнавати, що ти відчуваєш саме цю емоцію, проживати її,
-          приймати все, що відбувається у тілі та голові. Без оцінок та
-          засуджень. Усвідомлено. Проживати до кінця і відпускати, звільнятись.
-          Не ігноруй емоції, не ховай їх далеко в собі. Проживай. Без шкоди собі
-          й іншим. Усвідомлено та екологічно.
-        </p>
-      </li>
-      <!-- 2 -->
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/interesting/life_forse.jpg"
-            alt="label ife forse"
-            height="300"
-        /></a>
-        <p>
-          Енергія - це валюта. Коли ми сповнені енергії, ми спроможні більш
-          якісно робити свої справи, взаємодіяти з іншими, досягати успіху та
-          відчувати щастя. Якщо в автомобілі закінчується пальне - ми не зможемо
-          продовжувати рух, а тому завчасно прямуємо на заправку. Так і в житті,
-          немає сенсу робити щось, коли у вас уже немає сил - треба зупинитися і
-          зарядитися.
-        </p>
-      </li>
-      <!-- 3 -->
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./images/interesting/your_body_your_thing.jpg"
-            alt="label your body your thing"
-            height="300"
-        /></a>
-        <p>
-          Феномен бодішеймінгу (осудження зовнішнього вигляду) став доволі
-          поширеним у 2000-х роках, коли на подіумах, по телебаченню, в
-          журналах, (та скрізь!) панував культ «ідеальної» краси: 90-60-90,
-          зріст 180 см, довге волосся, ідеальна шкіра, об‘ємні вії, пишні губи,
-          чіткі брови - цей список можна продовжувати безкінечно. Тримаючи в
-          голові ідеал краси, люди одразу помічали відмінності від цього ідеалу
-          не тільки в своєму, а й в чужому тілі: «дивись, які в неї ляжки», «як
-          можна прийти на пляж з непобритими ногами?», «їй так негарно з
-          короткою чоловічою стрижкою», «ну брови уже можна було і пощипать», «у
-          неї зайва вага, а вона ходить в коротких топах і не комплексує, як
-          так?», «в неї пляма на півлиця, хоч би замалювала чим»... .... подібні
-          фрази зазвичай лунають лише від тих людей, які самі бояться бути
-          засудженими за свій зовнішній вигляд.
-        </p>
-      </li>
-    </ul>
-    <!-- footer -->
+    <!-- FOOTER -->
     <footer>
       <div>
-        <ul>
-          <!-- footer logo -->
-          <li>
-            <div>
-              <div>
-                <a href="./index.html">
-                  <img
-                    src="./images/logo/svidome_tilo_nav_logo-removebg-preview.png"
-                    width="150"
-                    height="150"
-                    alt="main logo"
-                /></a>
-              </div>
-              <div>
-                <!-- instagram -->
-                <a
-                  href="https://www.instagram.com/svidome_tilo/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg width="24" height="20">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-                <!-- facebook -->
-                <a
-                  href="https://www.facebook.com/anymalinka"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg width="24" height="20">
-                    <use href="./images/sprite.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-                <!-- twitter -->
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg width="24" height="20">
-                    <use href="./images/sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </li>
+        <!-- footer logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              src="./images/logo/svidome_tilo_nav_logo-removebg-preview.png"
+              width="150"
+              height="150"
+              alt="main logo"
+          /></a>
+        </div>
 
-          <!-- Company -->
-          <li>
-            <h2>Про компанію</h2>
-            <div>
-              <ul>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">Меню</a>
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">Блог</a>
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">Акції</a>
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    >Оплата</a
-                  >
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    >Галерея</a
-                  >
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    >Контакти</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
+        <!-- social media -->
+        <div>
+          <ul>
+            <li>
+              <!-- instagram -->
+              <a
+                href="https://www.instagram.com/svidome_tilo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <!-- facebook -->
+              <a
+                href="https://www.facebook.com/anymalinka"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <!-- twitter -->
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-          <!-- Location-->
-          <li>
-            <div>
-              <h2>Контакти</h2>
-              <p>Рівне, 33000, вул. Вячеслава Чорновола, 12</p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.497691878818!2d26.249201475837687!3d50.61787067529602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f134e074eb8ff%3A0x98ca0111d737d774!2z0LLRg9C70LjRhtGPINCS0Y_Rh9C10YHQu9Cw0LLQsCDQp9C-0YDQvdC-0LLQvtC70LAsIDEyLCDQoNGW0LLQvdC1LCDQoNGW0LLQvdC10L3RgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMzMwMDA!5e0!3m2!1sru!2sua!4v1681570283752!5m2!1sru!2sua"
-                width="300"
-                height="250"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </li>
-        </ul>
+        <!-- Company -->
+        <div>
+          <h2>Про компанію</h2>
+
+          <ul>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Меню</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Блог</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Акції</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Оплата</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Галерея</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer">Контакти</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Location-->
+
+        <div>
+          <h2>Контакти</h2>
+          <p>Рівне, 33000, вул. Вячеслава Чорновола, 12</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.497691878818!2d26.249201475837687!3d50.61787067529602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f134e074eb8ff%3A0x98ca0111d737d774!2z0LLRg9C70LjRhtGPINCS0Y_Rh9C10YHQu9Cw0LLQsCDQp9C-0YDQvdC-0LLQvtC70LAsIDEyLCDQoNGW0LLQvdC1LCDQoNGW0LLQvdC10L3RgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMzMwMDA!5e0!3m2!1sru!2sua!4v1681570283752!5m2!1sru!2sua"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </footer>
   </body>

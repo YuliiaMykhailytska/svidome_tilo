@@ -1,9 +1,16 @@
 .root {
   --font-family-poppins-regular: "Poppins Regular", sans-serif;
-
+  --main-color: #fff;
   --header-text-color: #000;
   --main-text-color: #212529;
   --hero-text-color: ;
+}
+
+/* reset */
+body {
+  font-family: var(--font-family-roboto);
+  color: var(--main-text-color);
+  background: var(--background-color);
 }
 
 h1,
@@ -12,10 +19,76 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
 }
 
-body {
-  font-family: var(--font-family-poppins-regular);
+img {
+  display: block;
 }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =======================header======================= */
+.header-section {
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-container {
+}
+
+.header-nav {
+}
+.header-logo-link {
+}
+
+.header-logo-icon {
+}
+.header-nav-menu-container {
+}
+.header-menu-list {
+}
+
+.header-item {
+}
+.header-nav-link {
+}
+.header-address {
+}
+.header-addres-list {
+}
+.header-addres-item {
+}
+.header-addres-contact {
+}
+
+/* =======================/header======================= */
+
+/* =======================hero======================= */
+/* =======================/hero======================= */
+
+/* =======================new======================= */
+/* =======================/new======================= */
+
+/* =======================blog======================= */
+/* =======================/blog======================= */
+
+/* =======================footer======================= */
+/* =======================/footer======================= */
